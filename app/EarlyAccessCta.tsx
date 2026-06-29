@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Button } from "@my-design-system/ui";
+import { Button } from "@codacub/ui";
 
 export function EarlyAccessCta() {
   const router = useRouter();

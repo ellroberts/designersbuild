@@ -19,8 +19,9 @@
       }
     ],
     "paths": {
-      "@/components/*": ["./components/*", "../my-design-system/packages/ui/src/lib/components/*"],
-      "@/lib/*": ["./lib/*", "../my-design-system/packages/ui/src/lib/lib/*"],
+      "@my-design-system/tokens/*": ["./node_modules/@codacub/tokens/*"],
+      "@/components/*": ["./components/*", "./node_modules/@codacub/ui/dist/lib/components/*"],
+      "@/lib/*": ["./lib/*", "./node_modules/@codacub/ui/dist/lib/lib/*"],
       "@/*": ["./*"]
     }
   },

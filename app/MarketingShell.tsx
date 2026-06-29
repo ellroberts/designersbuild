@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { CookieBanner, Logo } from "@my-design-system/ui";
+import { CookieBanner, Logo } from "@codacub/ui";
 import { EarlyAccessCta } from "./EarlyAccessCta";
 
 export function MarketingShell({ children }: { children: React.ReactNode }) {

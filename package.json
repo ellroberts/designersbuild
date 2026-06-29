@@ -9,12 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@my-design-system/tokens": "file:../my-design-system/packages/tokens",
-    "@my-design-system/ui": "file:../my-design-system/packages/ui",
+    "@codacub/tokens": "1.0.1",
+    "@codacub/ui": "1.0.1",
     "lucide-react": "^1.22.0",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
+  },
+  "overrides": {
+    "@my-design-system/tokens": "npm:@codacub/tokens@1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
