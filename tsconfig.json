@@ -19,6 +19,8 @@
       }
     ],
     "paths": {
+      "@/components/*": ["./components/*", "../my-design-system/packages/ui/src/lib/components/*"],
+      "@/lib/*": ["./lib/*", "../my-design-system/packages/ui/src/lib/lib/*"],
       "@/*": ["./*"]
     }
   },

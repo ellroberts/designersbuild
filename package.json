@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@my-design-system/tokens": "file:../my-design-system/packages/tokens",
+    "@my-design-system/ui": "file:../my-design-system/packages/ui",
+    "lucide-react": "^1.22.0",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
